@@ -27,7 +27,7 @@ public class signup {
 	}
 	
 	public static WebElement Signup_click(WebDriver driver) {
-		
+		//testing
 		element = driver.findElement(By.xpath("//*[@id=\"signInModal\"]/div/div/div[3]/button[2]"));
 		return element;
 	}

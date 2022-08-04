@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.devtools.v100.page.Page;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import page.signup;
@@ -20,7 +19,7 @@ public class App
     {
     	
     	 //Browser launcher
-		System.setProperty("webdriver.chrome.driver", "E:\\Software\\chromedriver_win32 (3)/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Scripts\\Selenium\\Library/chromedriver.exe");
 		//System.setProperty("webdriver.gecko.driver", "C:\\Users\\Hamza  Sultani\\Downloads\\geckodriver-v0.31.0-win64 (1)/geckodriver.exe");
 		WebDriver driver = new ChromeDriver();
 		//driver = new FirefoxDriver();
@@ -89,5 +88,6 @@ public class App
 		
 
 		driver.close();
+		//faahd testing
     }
 }
